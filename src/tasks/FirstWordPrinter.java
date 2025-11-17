@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class D {
+public class FirstWordPrinter {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
 

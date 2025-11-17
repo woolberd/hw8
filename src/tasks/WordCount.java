@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class G {
+public class WordCount {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();

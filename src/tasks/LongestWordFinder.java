@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class F {
+public class LongestWordFinder {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
 

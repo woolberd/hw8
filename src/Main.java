@@ -2,13 +2,13 @@ import tasks.*;
 
 public class Main {
     public static void main(String[] args) {
-       // A.run();
-       // B.run();
-       // C.run();
-       // D.run();
-       // E.run();
-       // F.run();
-       // G.run();
-       // H.run();
+//        StringReplacer_A.run();
+//        StringReplacer_B.run();
+//        StringReplacer_С.run();
+//        Palindrome.run();
+//        FirstWordPrinter.run();
+//        LastWordPrinter.run();
+//        LongestWordFinder.run();
+//        WordCount.run();
     }
 }

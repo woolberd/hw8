@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class H {
+public class Palindrome {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine(); // читаем слово

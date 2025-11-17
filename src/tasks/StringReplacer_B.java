@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class B {
+public class StringReplacer_B {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class C {
+public class StringReplacer_A {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,15 +15,6 @@ public class C {
 
             if (c == 'a') {
                 result.append('b');
-                count++;
-            } else if (c == 'b') {
-                result.append('a');
-                count++;
-            } else if (c == 'A') {
-                result.append('B');
-                count++;
-            } else if (c == 'B') {
-                result.append('A');
                 count++;
             } else {
                 result.append(c);

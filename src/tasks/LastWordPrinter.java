@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class E {
+public class LastWordPrinter {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
 
