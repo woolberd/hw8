@@ -1,0 +1,36 @@
+package tasks;
+
+import java.util.Scanner;
+
+public class C {
+    public static void run() {
+        Scanner scanner = new Scanner(System.in);
+
+        String input = scanner.nextLine();
+        StringBuilder result = new StringBuilder();
+        int count = 0;
+
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+
+            if (c == 'a') {
+                result.append('b');
+                count++;
+            } else if (c == 'b') {
+                result.append('a');
+                count++;
+            } else if (c == 'A') {
+                result.append('B');
+                count++;
+            } else if (c == 'B') {
+                result.append('A');
+                count++;
+            } else {
+                result.append(c);
+            }
+        }
+
+        System.out.println(result);
+        System.out.println(count);
+    }
+}
